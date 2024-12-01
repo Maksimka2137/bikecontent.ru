@@ -16,8 +16,8 @@ jobs:
                     node-version: "18"
                     source-directory: 'frontend'
             # Install NPM
-            -   name: Установка NPM-зависимостей и сборка статики
-                run: cd frontend && npm run build
+            # -   name: Установка NPM-зависимостей и сборка статики
+            #     run: cd frontend && npm run build
             # Deploy
             -   name: Публикация проекта
                 uses: burnett01/rsync-deployments@4.1
