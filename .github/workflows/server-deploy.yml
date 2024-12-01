@@ -1,0 +1,31 @@
+name: Deployment
+
+on:
+    push
+
+jobs:
+    deploy:
+        if: github.ref == 'refs/heads/main'
+        runs-on: ubuntu-latest
+
+        steps:
+            -   name: Загрузка актуальной кодовой базы
+                uses: actions/checkout@v2
+            -   uses: actions/setup-node@v2
+                with:
+                    node-version: "18"
+                    source-directory: 'frontend'
+            # Install NPM
+            -   name: Установка NPM-зависимостей и сборка статики
+                run: cd frontend && npm run build
+            # Deploy
+            -   name: Публикация проекта
+                uses: burnett01/rsync-deployments@4.1
+                with:
+                    switches: -avzr
+                    rsh: -oHostKeyAlgorithms=+ssh-rsa
+                    path: ./frontend
+                    remote_path: ${{ secrets.SERVER_PATH }}
+                    remote_host: ${{ secrets.SERVER_IP }}
+                    remote_user: ${{ secrets.SERVER_USER }}
+                    remote_key: ${{ secrets.SSH_KEY_PRIVATE }}
