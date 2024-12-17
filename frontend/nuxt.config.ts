@@ -17,6 +17,7 @@ export default defineNuxtConfig({
   imports: { // add folders here to auto-import them in your application
     dirs: [
       'stores',
+      'stores/**',
       'composables/**',
     ],
   },
