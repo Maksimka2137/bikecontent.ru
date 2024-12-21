@@ -1,17 +1,39 @@
+# global:
+#   about: О нас
+#   sample: Something
+# main:
+#   title: It is a  Nightrunner
+# about:
+#   title: About Nightrunner
+#   summary: >-
+#     Nightrunner is a simple, fast, and ready to use starter template for Nuxt 3.
+#     It features the necessary tools to get you started immediately on your next project.
+#   features: 'Nightrunner uses the following technologies:'
+#   config: >-
+#     On top of that, it contains little helpers to help with localization,
+#     color schemes, and even a sensible configuration for ESLint and VSCode.
+# theme:
+#   dark: Night
+#   light: Day
 global:
-  about: About
-  sample: Sample
+  heading: About us 
+  advantages: >-
+   1. We will help you to shoot a video about your bike.
+   2. Also we can mount this video for you.
+   3. More over we can take beautiful photos, so you can put it on the Internet and show your bike to other people.
+   4. Our servises cost a little bit, it is necessary so that we havr the material recources to shoot subsequent videos.
 main:
-  title: Welcome, Nightrunner
-about:
-  title: About Nightrunner
-  summary: >-
-    Nightrunner is a simple, fast, and ready to use starter template for Nuxt 3.
-    It features the necessary tools to get you started immediately on your next project.
-  features: 'Nightrunner uses the following technologies:'
+  title: Hello! It is a bikecontent.ru
+  title1: About us 
+  whoweare: >- 
+      Hello!
+      If you like riding your mountain bike and want to show your bike to other people we will help you in it!
+  advantages: Advantages
   config: >-
     On top of that, it contains little helpers to help with localization,
     color schemes, and even a sensible configuration for ESLint and VSCode.
+about:
+  test: dgfdgfdg
 theme:
-  dark: Dark
-  light: Light
+  dark: Night
+  light: Day

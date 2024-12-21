@@ -13,27 +13,22 @@ useHead({
 <template>
   <div class="text-center mb-5">
     <h1 class="title">
-      {{ t('about.title') }}
+      {{ t('About us') }}
     </h1>
   </div>
 
   <div>
     <p>
-      {{ t('about.summary') }}
+      {{ t('main.whoweare') }}
     </p>
 
     <p class="mt-5">
-      {{ t('about.features') }}
+      {{ t('main.advantages') }}
       <ul list>
-        <li>Nuxt 3</li>
-        <li>Vue 3</li>
-        <li>Vite</li>
-        <li>Typescript</li>
-        <li>ESLint</li>
-        <li>UnoCSS</li>
-        <li>Iconify</li>
-        <li>Pinia</li>
-        <li>Nuxt i18n</li>
+        <li>We will help you to shoot a video about your bike.</li>
+        <li>Also we can mount this video for you.</li>
+        <li>More over we can take beautiful photos, so you can put it on the Internet and show your bike to other people.</li>
+        <li>Our servises cost a little bit, it is necessary so that we havr the material recources to shoot subsequent videos.</li>
       </ul>
     </p>
 

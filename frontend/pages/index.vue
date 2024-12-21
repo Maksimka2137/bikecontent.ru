@@ -4,7 +4,7 @@
   </h1>
   <span class="flex-center flex-row gap-5">
     <NuxtLinkLocale to="/about" class="btn">
-      {{ t('global.about') }}
+      {{ t('global.heading') }}
     </NuxtLinkLocale>
     <NuxtLinkLocale to="/sample" class="btn">
       {{ t('global.sample') }}
