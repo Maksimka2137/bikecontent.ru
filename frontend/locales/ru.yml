@@ -1,8 +1,8 @@
 global:
   about: О нас
-  sample: Sample
+  sample: Something
 main:
-  title: Welcome, Nightrunner
+  title: It is a  Nightrunner
 about:
   title: About Nightrunner
   summary: >-
@@ -13,5 +13,5 @@ about:
     On top of that, it contains little helpers to help with localization,
     color schemes, and even a sensible configuration for ESLint and VSCode.
 theme:
-  dark: Dark
-  light: Light
+  dark: Night
+  light: Day
