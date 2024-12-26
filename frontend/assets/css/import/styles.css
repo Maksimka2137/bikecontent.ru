@@ -3387,7 +3387,7 @@ img.u-pull-left {
  * -------------------------------------------------------------------- */
 .s-intro__bg {
     display             : block;
-    background-image    : url(/images/hero-bg.jpg);
+    background-image    : url(/images/main-header.jpeg);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
@@ -3450,7 +3450,6 @@ img.u-pull-left {
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
-    background-color: red;
     width               : 500px;
     position            : absolute;
     top                 : var(--content-padding-top);

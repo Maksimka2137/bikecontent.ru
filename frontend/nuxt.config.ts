@@ -13,8 +13,8 @@ export default defineNuxtConfig({
             title: 'Nightrunner',
             link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
             script: [
+                {'src': '/js/plugins.js', tagPosition: 'bodyClose'},
                 {'src': '/js/main.js', tagPosition: 'bodyClose'},
-                {'src': '/js/plugins.js', tagPosition: 'bodyClose'}
             ],
         },
     },
@@ -40,6 +40,13 @@ export default defineNuxtConfig({
                 propsDestructure: true,
             },
         },
+        css: {
+            preprocessorOptions: {
+                scss: {
+                    silenceDeprecations: ['legacy-js-api'],
+                }
+            }
+        }
     },
     experimental: {
         typedPages: true,
@@ -55,6 +62,7 @@ export default defineNuxtConfig({
         // '@/assets/css/main.css',
         '@/assets/css/import/vendor.css',
         '@/assets/css/import/styles.css',
+        '@/assets/scss/main.scss',
     ],
 
     // plugin configurations

@@ -1,9 +1,12 @@
 <template>
+    <!-- <div id="preloader"> -->
+    <!--     <div id="loader"></div> -->
+    <!-- </div> -->
     <div id="page" class="s-pagewrap">
+        <NuxtPage />
 
 
         <header class="s-header">
-
             <div class="row s-header__inner">
 
                 <div class="s-header__block">
@@ -19,14 +22,14 @@
                 <nav class="s-header__nav">
     
                     <ul class="s-header__menu-links">
-                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
-                        <li><a href="#about" class="smoothscroll">About</a></li>
-                        <li><a href="#services" class="smoothscroll">Services</a></li>
-                        <li><a href="#folio" class="smoothscroll">Work</a></li>
-                        <li><a href="#footer" class="smoothscroll">Contact</a></li>
+                        <li class="current"><a href="#intro" class="smoothscroll">Начало</a></li>
+                        <li><a href="#about" class="smoothscroll">О нас</a></li>
+                        <li><a href="#services" class="smoothscroll">Услуги</a></li>
+                        <li><a href="#folio" class="smoothscroll">Портфолио</a></li>
+                        <li><a href="#footer" class="smoothscroll">Контакты</a></li>
                     </ul> <!-- s-header__menu-links -->
 
-                    <ul class="s-header__social">
+                    <ul class="s-header__social" v-if="false">
                         <li>
                             <a href="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
@@ -78,16 +81,14 @@
                     <div class="column lg-12 s-intro__content-inner">
                         
                         <h1 class="s-intro__content-title">
-                        We provide creative <br>
-                        solutions to turn your <br>
-                        ideas into digital reality.
+                            Bikecontent — производство видео про горные велосипеды
                         </h1>
 
                         <div class="s-intro__content-buttons">
-                            <a href="#download" class="btn btn--stroke s-intro__content-btn smoothscroll">More About Us</a>
-                            <a href="https://player.vimeo.com/video/14592941?color=f26522&title=0&byline=0&portrait=0" class="s-intro__content-video-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M7 6v12l10-6z"></path></svg>
-                            </a>
+                            <!-- <a href="#download" class="btn btn--stroke s-intro__content-btn smoothscroll">More About Us</a> -->
+                            <!-- <a href="https://player.vimeo.com/video/14592941?color=f26522&title=0&byline=0&portrait=0" class="s-intro__content-video-btn"> -->
+                            <!--     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M7 6v12l10-6z"></path></svg> -->
+                            <!-- </a> -->
                         </div>
                         
                     </div> <!-- s-intro__content-inner -->
@@ -108,20 +109,16 @@
             <section id="about" class="s-about target-section">
 
                 <div class="row section-header" data-num="01">
-                    <h3 class="column lg-12 section-header__pretitle pretitle text-pretitle">Who We Are</h3>
+                    <h3 class="column lg-12 section-header__pretitle pretitle text-pretitle">Что мы умеем</h3>
                     <div class="column lg-6 stack-on-1100 section-header__primary">
                         <h2 class="title text-display-1">
-                        Mueller is a branding agency based in Somewhere. 
-                        We shape brand identities and design thoughtful 
-                        digital experiences.
+                            Привет! 
                         </h2>
+                        <p class="desc">
+                            Если ты любишь кататься на своем горном велосипеде и хочешь показать это другим людям, то мы тебе в этом поможем!
+                        </p>
                     </div>
                     <div class="column lg-6 stack-on-1100 section-header__secondary">
-                        <p class="desc">
-                        Deleniti dolorem reiciendis repellat labore velit dolor nihil qui. 
-                        Deserunt sapiente odio quos quisquam dolorem cumque et omnis. 
-                        Minima quibusdam sequi consequatur magni non sunt est.
-                        </p>
                     </div>
                 </div> <!-- end section-header -->
 
@@ -129,53 +126,45 @@
     
                     <div class="column list-block__item">
                         <div class="list-block__title">
-                            <h3 class="h5">Define</h3>
+                            <h3 class="h5">Мы поможем тебе снять видео</h3>
                         </div>
                         <div class="list-block__text">
                             <p>
-                            Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                            Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                            Sunt suscipit voluptas ipsa in tempora esse soluta sint aliquam rhoncus elit.
+                                Мы поможем тебе снять видео твой велосипед. 
+                                Можешь гонять сам, можем прокатиться мы
                             </p>
                         </div>
                     </div> <!-- end list-block__item -->
 
                     <div class="column list-block__item">
                         <div class="list-block__title">
-                            <h3 class="h5">Design</h3>
+                            <h3 class="h5">Также мы смонтируем тебе этот ролик</h3>
                         </div>
                         <div class="list-block__text">
                             <p>
-                            Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
-                            sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                            magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                Чтобы он выглядел сочно и привлекательно для зрителей
                             </p>
                         </div>
                     </div> <!-- end list-block__item -->
         
                     <div class="column list-block__item">
                         <div class="list-block__title">
-                            <h3 class="h5">Build</h3>
+                            <h3 class="h5">Еще мы очень красиво сфотографируем твой велосипед, и ты сможешь выложить эту фотографию в интернет, чтобы другие люди увидели твой байк(примеры работ можешь посмотреть в нашем портфолио)</h3>
                         </div>
                         <div class="list-block__text">
                             <p>
-                            Non ullam est vel facere et. Qui iusto optio nostrum corrupti et dignissimos. Ipsam ipsam 
-                            expedita aspernatur eos harum quo atque tempore non. Magni saepe hic fuga cumque. Nihil 
-                            itaque laborum doloribus minus dolorum sint itaque animi et voluptatem.
-                            illum nemo rerum voluptate. 
+
                             </p>
                         </div>
                     </div> <!-- end list-block__item -->
         
                     <div class="column list-block__item">
                         <div class="list-block__title">
-                            <h3 class="h5">Launch</h3>
+                            <h3 class="h5">Наши услуги стоят совсем не дорого</h3>
                         </div>
                         <div class="list-block__text">
                             <p>
-                            Nobis mollitia quo nulla sunt sit error repellat qui. Praesentium minima consequatur. 
-                            Aliquid aliquid aut. Asperiores sed temporibus laboriosam delectus optio rerum reiciendis.
-                            Quas at illum. Dolores itaque architecto. Magnam voluptatem aperiam. Velit omnis est.
+                            Эта нужно для того, чтобы у нас были материальные ресурсы для сьемки следующих роликов.
                             </p>
                         </div>
                     </div> <!-- end list-block__item -->
@@ -768,3 +757,12 @@
 
         </div>
 </template>
+
+
+<script setup>
+useHead({
+    bodyAttrs: {
+        class: 'js ss-show',
+    }
+})
+</script>
