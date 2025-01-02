@@ -91,12 +91,12 @@
     
                     <div class="column list-block__item">
                         <div class="list-block__title">
-                            <h3 class="h5">Мы поможем снять видео</h3>
+                            <h3 class="h5">Снимем видео</h3>
                         </div>
                         <div class="list-block__text">
                             <p>
                                 Поможем тебе снять видео про твой велосипед. 
-                                Можешь гонять сам, можем прокатиться мы
+                                Хочешь — гоняй сам, хочешь — пилотом будет кто-нибудь из нас 
                             </p>
                         </div>
                     </div> <!-- end list-block__item -->
@@ -114,7 +114,7 @@
         
                     <div class="column list-block__item">
                         <div class="list-block__title">
-                            <h3 class="h5">Еще мы очень красиво сфотографируем твой велосипед, и ты сможешь выложить эту фотографию в интернет, чтобы другие люди увидели твой байк(примеры работ можешь посмотреть в нашем портфолио)</h3>
+                            <h3 class="h5">Красиво сфотографируем твой велосипед, и ты сможешь выложить фотографию в интернет, чтобы другие люди увидели твой байк (примеры работ можешь посмотреть в нашем портфолио)</h3>
                         </div>
                         <div class="list-block__text">
                             <p>
@@ -195,7 +195,7 @@
                             <article class="brick brick--double entry">
                                 <a href="#modal-01" class="entry__link">
                                     <div class="entry__thumb">
-                                        <img src="/images/folio/white_turban@2x.jpg" alt="">
+                                        <img src="/images/gallery/1-gallery.jpg" alt="">
                                     </div>
                                     <div class="entry__info">
                                         <div class="entry__cat">Frontend Design</div>
@@ -207,9 +207,9 @@
                             <article class="brick brick--double entry">
                                 <a href="#modal-02" class="entry__link">
                                     <div class="entry__thumb">
-                                        <img src="/images/folio/caffeine_and_tulips@2x.jpg" alt="">
+                                        <img src="/images/gallery/2-gallery.jpg" alt="">
                                     </div>
-                                    <div class="entry__info">
+                                    <div class="entry__info" v-show="false">
                                         <div class="entry__cat">Brand Identity</div>
                                         <h4 class="entry__title">Caffeine & Tulips</h4>
                                     </div>
@@ -219,9 +219,9 @@
                             <article class="brick entry">
                                 <a href="#modal-03" class="entry__link">
                                     <div class="entry__thumb">
-                                        <img src="/images/folio/grayscale@2x.jpg" alt="">
+                                        <img src="/images/gallery/3-gallery.jpg" alt="">
                                     </div>
-                                    <div class="entry__info">
+                                    <div class="entry__info" v-show="false">
                                         <div class="entry__cat">Product Design</div>
                                         <h4 class="entry__title">Grayscale</h4>
                                     </div>
@@ -231,9 +231,9 @@
                             <article class="brick entry">
                                 <a href="#modal-04" class="entry__link">
                                     <div class="entry__thumb">
-                                        <img src="/images/folio/lamp@2x.jpg" alt="">
+                                        <img src="/images/gallery/4-gallery.jpg" alt="">
                                     </div>
-                                    <div class="entry__info">
+                                    <div class="entry__info" v-show="false">
                                         <div class="entry__cat">E-Commerce</div>
                                         <h4 class="entry__title">Lamp</h4>
                                     </div>
@@ -243,9 +243,9 @@
                             <article class="brick entry">
                                 <a href="#modal-05" class="entry__link">
                                     <div class="entry__thumb">
-                                        <img src="/images/folio/tropical@2x.jpg" alt="">
+                                        <img src="/images/gallery/5-gallery.jpg" alt="">
                                     </div>
-                                    <div class="entry__info">
+                                    <div class="entry__info" v-show="false">
                                         <div class="entry__cat">Frontend Design</div>
                                         <h4 class="entry__title">Tropical</h4>
                                     </div>
@@ -255,9 +255,9 @@
                             <article class="brick entry">
                                 <a href="#modal-06" class="entry__link">
                                     <div class="entry__thumb">
-                                        <img src="/images/folio/woodcraft@2x.jpg" alt="">
+                                        <img src="/images/gallery/6-gallery.jpg" alt="">
                                     </div>
-                                    <div class="entry__info">
+                                    <div class="entry__info" v-show="false">
                                         <div class="entry__cat">E-Commerce</div>
                                         <h4 class="entry__title">Woodcraft</h4>
                                     </div>
@@ -373,7 +373,7 @@
 
                 <!-- clients
                 -------------------------------------------- -->
-                <div class="s-clients row">
+                <div class="s-clients row" v-if="false">
                     <div class="column lg-12">
 
                         <div class="row section-header">
@@ -434,7 +434,7 @@
 
             <!-- testimonials
             ----------------------------------------------- -->
-            <section id="testimonials" class="s-testimonials">
+            <section id="testimonials" class="s-testimonials" v-show="false">
 
                 <div class="row s-testimonials__content">
                     <div class="column lg-12">
@@ -522,17 +522,15 @@
         <footer id="footer" class="s-footer target-section">
 
             <div class="row section-header" data-num="04">
-                <h3 class="column lg-12 section-header__pretitle text-pretitle">Get In Touch</h3>
+                <h3 class="column lg-12 section-header__pretitle text-pretitle">Йоу!</h3>
                 <div class="column lg-6 stack-on-1100 section-header__primary">
                     <h2 class="title text-display-1">
-                    Have an idea or an epic project in mind? Talk to us. 
-                    Let's work together and make something great. 
-                    Drop us a line at <a href="mailto:#0" title="">hello@mueller.com</a>
+                    Давай забацаем классный видос про твой велик, ну или фотографии сделаем?
                     </h2>
                 </div>    
                 <div class="column lg-6 stack-on-1100 section-header__secondary">
                     
-                    <div class="contact-block">
+                    <div class="contact-block" v-if="false">
                         <h6>Where To Find Us</h6>
                         <p>
                         1600 Amphitheatre Parkway <br>
@@ -541,7 +539,7 @@
                         </p>
                     </div>
 
-                    <div class="contact-block">
+                    <div class="contact-block" v-if="false">
                         <h6>Contact Infos</h6>
                         <ul class="contact-list">
                             <li><a href="tel:197-543-2345">+197 543 2345</a></li>
@@ -556,13 +554,13 @@
                 <div class="column list-block__item">
                     <div class="s-footer__contact-btn">
                         <a href="mailto:#0" class="btn btn--primary u-fullwidth">
-                            Let's Talk 
+                            Пиши-пиши нам
                         </a>
                     </div>
                 </div>
                 <div class="column list-block__item">
                     <div class="subscribe-form s-footer__subscribe">
-                        <h6>Subscribe</h6>
+                        <h6>Ну, или оставь заявку, а мы выйдем на связь сами</h6>
                         <form id="mc-form" class="mc-form">
                             <input type="email" name="EMAIL" id="mce-EMAIL" class="u-fullwidth text-center" placeholder="Your Email Address" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
                             <input type="submit" name="subscribe" value="Subscribe" class="btn btn--primary u-fullwidth">
