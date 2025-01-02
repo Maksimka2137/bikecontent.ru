@@ -153,8 +153,8 @@
                     <div class="column lg-6 stack-on-1100 section-header__secondary">
                         <p class="desc">
                             Если понравилось наше творчество можешь перейти по ссылкам ниже и подписаться на наш канал и группу в VK:
-                            <a href="vk.com/club226196490">vk.com/club226196490</a>
-                            <br>
+                            <!-- <a href="vk.com/club226196490">vk.com/club226196490</a> -->
+                            <!-- <br> -->
                             <a href="https://www.youtube.com/@RoadEagles50">www.youtube.com/@RoadEagles50</a>
                         </p>
                     </div>
