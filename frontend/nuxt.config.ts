@@ -10,7 +10,7 @@ const locales = fs.readdirSync('locales')
 export default defineNuxtConfig({
     app: {
         head: {
-            title: 'Nightrunner',
+            title: 'Bikecontent',
             link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
             script: [
                 {'src': '/js/plugins.js', tagPosition: 'bodyClose'},
@@ -18,6 +18,7 @@ export default defineNuxtConfig({
             ],
         },
     },
+
     imports: { // add folders here to auto-import them in your application
         dirs: [
             'stores',
@@ -25,7 +26,9 @@ export default defineNuxtConfig({
             'composables/**',
         ],
     },
+
     components: [{ path: '~/components', pathPrefix: false }],
+
     typescript: {
         tsConfig: {
             compilerOptions: {
@@ -33,6 +36,7 @@ export default defineNuxtConfig({
             },
         },
     },
+
     vite: {
         vue: {
             script: {
@@ -48,9 +52,22 @@ export default defineNuxtConfig({
             }
         }
     },
+
     experimental: {
         typedPages: true,
     },
+
+    yandexMetrika: {
+        id: '99499339',
+        webvisor: true,
+        consoleLog: true,
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        defer: false,
+        triggerEvent: true,
+    },
+
 
     // uncomment to disable SSR. This will basically make the app a SPA, like a normal Vue app, but with all the Nuxt goodies
     // ssr: false,
@@ -73,17 +90,24 @@ export default defineNuxtConfig({
         '@nuxtjs/critters',
         '@nuxtjs/color-mode',
         '@pinia/nuxt',
+        'yandex-metrika-module-nuxt3',
     ],
+
     i18n: {
         langDir: 'locales',
         defaultLocale: 'ru',
         locales,
     },
+
     colorMode: {
         preference: 'system',
         fallback: 'light',
         classPrefix: '',
         classSuffix: '',
         storageKey: 'color-scheme',
+    },
+
+    devtools: {
+        enabled: true,
     },
 })

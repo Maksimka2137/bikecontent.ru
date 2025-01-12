@@ -6,6 +6,6 @@
 <script lang="ts" setup>
 const { t } = useCustomI18n()
 definePageMeta({
-    layout: 'default',
+    layout: 'en',
 })
 </script>

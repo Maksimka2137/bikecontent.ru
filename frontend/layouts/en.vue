@@ -1,5 +1,5 @@
 <template>
-    <div id="page" class="s-pagewrap">
+<div id="page" class="s-pagewrap">
         <NuxtPage />
 
 
@@ -18,12 +18,12 @@
 
                 <nav class="s-header__nav">
                     <ul class="s-header__menu-links">
-                        <li class="current"><a href="#intro" class="smoothscroll">Начало</a></li>
-                        <li><a href="#about" class="smoothscroll">О нас</a></li>
-                        <li><a href="#services" class="smoothscroll">Услуги</a></li>
-                        <li><a href="#folio" class="smoothscroll">Портфолио</a></li>
-                        <li><a href="#footer" class="smoothscroll">Контакты</a></li>
-                        <li><NuxtLink href="/en">[ English ]</NuxtLink></li>
+                        <li class="current"><a href="#intro" class="smoothscroll">Start!</a></li>
+                        <li><a href="#about" class="smoothscroll">About us</a></li>
+                        <li><a href="#services" class="smoothscroll">Services</a></li>
+                        <li><a href="#folio" class="smoothscroll">Portfolio</a></li>
+                        <li><a href="#footer" class="smoothscroll">Contact</a></li>
+                        <li><NuxtLink href="/">[ Русская версия ]</NuxtLink></li>
                     </ul> <!-- s-header__menu-links -->
                 </nav> <!-- end s-header__nav -->
 
@@ -50,7 +50,7 @@
                     <div class="column lg-12 s-intro__content-inner">
                         
                         <h1 class="s-intro__content-title">
-                            Bikecontent — производство видео про горные велосипеды
+                            Bikecontent: young mountain bike video producers from Russia
                         </h1>
 
                         <div class="s-intro__content-buttons">
@@ -74,13 +74,13 @@
             <section id="about" class="s-about target-section">
 
                 <div class="row section-header" data-num="01">
-                    <h3 class="column lg-12 section-header__pretitle pretitle text-pretitle">Что мы умеем</h3>
+                    <h3 class="column lg-12 section-header__pretitle pretitle text-pretitle">What we can do</h3>
                     <div class="column lg-6 stack-on-1100 section-header__primary">
                         <h2 class="title text-display-1">
-                            Привет! 
+                            Yo!
                         </h2>
                         <p class="desc">
-                            Если ты любишь кататься на своем горном велосипеде и хочешь показать это другим людям, то мы тебе в этом поможем!
+                            Do you like riding your MTB? Do you want to show your bike to other people? We are here to help you with it!
                         </p>
                     </div>
                     <div class="column lg-6 stack-on-1100 section-header__secondary">
@@ -91,30 +91,29 @@
     
                     <div class="column list-block__item">
                         <div class="list-block__title">
-                            <h3 class="h5">Снимем видео</h3>
+                            <h3 class="h5">Shoot a video</h3>
                         </div>
                         <div class="list-block__text">
                             <p>
-                                Поможем тебе снять видео про твой велосипед. 
-                                Хочешь — гоняй сам, хочешь — пилотом будет кто-нибудь из нас 
+                                We will help you to shoot a video about your bike
                             </p>
                         </div>
                     </div> <!-- end list-block__item -->
 
                     <div class="column list-block__item">
                         <div class="list-block__title">
-                            <h3 class="h5">Смонтируем этот ролик</h3>
+                            <h3 class="h5">Edit the video</h3>
                         </div>
                         <div class="list-block__text">
                             <p>
-                                Чтобы он выглядел сочно и привлекательно для зрителей
+                                We will edit your video to look shiny and slick
                             </p>
                         </div>
                     </div> <!-- end list-block__item -->
         
                     <div class="column list-block__item">
                         <div class="list-block__title">
-                            <h3 class="h5">Красиво сфотографируем твой велосипед, и ты сможешь выложить фотографию в интернет, чтобы другие люди увидели твой байк (примеры работ можешь посмотреть в нашем портфолио)</h3>
+                            <h3 class="h5">More over we can take beautiful photos, so you can put it on the Internet to show off</h3>
                         </div>
                         <div class="list-block__text">
                             <p>
@@ -125,11 +124,11 @@
         
                     <div class="column list-block__item">
                         <div class="list-block__title">
-                            <h3 class="h5">Наши услуги стоят совсем не дорого</h3>
+                            <h3 class="h5">Our service is quite affordable</h3>
                         </div>
                         <div class="list-block__text">
                             <p>
-                            Эта нужно для того, чтобы у нас были материальные ресурсы для сьемки следующих роликов 🤑
+                            Certainly we need some gold to keep the things going and to buy us some sweets 🤑
                             </p>
                         </div>
                     </div> <!-- end list-block__item -->
@@ -144,15 +143,15 @@
             <section id="services" class="s-services target-section">
 
                 <div class="row section-header" data-num="02">
-                    <h3 class="column lg-12 section-header__pretitle text-pretitle">Где мы?</h3>
+                    <h3 class="column lg-12 section-header__pretitle text-pretitle">Location?</h3>
                     <div class="column lg-6 stack-on-1100 section-header__primary">
                         <h2 class="title text-display-1">
-                            Нас легко найти
+                            We're just a click away
                         </h2>
                     </div>
                     <div class="column lg-6 stack-on-1100 section-header__secondary">
                         <p class="desc">
-                            Если понравилось наше творчество можешь перейти по ссылкам ниже и подписаться на наш канал и группу в VK:
+                            Don't call us, we'll call you!
                             <!-- <a href="vk.com/club226196490">vk.com/club226196490</a> -->
                             <!-- <br> -->
                             <a href="https://www.youtube.com/@RoadEagles50">www.youtube.com/@RoadEagles50</a>
@@ -173,15 +172,15 @@
             <section id="folio" class="s-folio target-section">
 
                 <div class="row section-header light-on-dark" data-num="03">
-                    <h3 class="column lg-12 section-header__pretitle text-pretitle">Наши работы — фотографии</h3>
+                    <h3 class="column lg-12 section-header__pretitle text-pretitle">Our masterpieces [photography]</h3>
                     <div class="column lg-6 stack-on-1100 section-header__primary">
                         <h2 class="title text-display-1">
-                            Помимо видео-роликов у нас есть опыт в фотографии
+                            Apart from video we do photos too, have a look at some
                         </h2>
                     </div>
                     <div class="column lg-6 stack-on-1100 section-header__secondary">
                         <p class="desc">
-                            Хорошая фотография говорит гораздо больше чем посредственный видео-ролик
+                            One pic is worth a thousand words
                         </p>
                     </div>
                 </div> <!-- end section-header -->
@@ -522,10 +521,10 @@
         <footer id="footer" class="s-footer target-section">
 
             <div class="row section-header" data-num="04">
-                <h3 class="column lg-12 section-header__pretitle text-pretitle">Йоу!</h3>
+                <h3 class="column lg-12 section-header__pretitle text-pretitle">Sup!</h3>
                 <div class="column lg-6 stack-on-1100 section-header__primary">
                     <h2 class="title text-display-1">
-                    Давай забацаем классный видос про твой велик, ну или фотографии сделаем?
+                    Let's fix you a sick video or some photos?
                     </h2>
                 </div>    
                 <div class="column lg-6 stack-on-1100 section-header__secondary">
@@ -554,13 +553,13 @@
                 <div class="column list-block__item">
                     <div class="s-footer__contact-btn">
                         <a href="mailto:#0" class="btn btn--primary u-fullwidth">
-                            Пиши-пиши нам
+                            Old-school? E-mail us
                         </a>
                     </div>
                 </div>
                 <div class="column list-block__item">
                     <div class="subscribe-form s-footer__subscribe">
-                        <h6>Ну, или оставь заявку, а мы выйдем на связь сами</h6>
+                        <h6>Enter your contacts and we shall contact you</h6>
                         <form id="mc-form" class="mc-form">
                             <input type="email" name="EMAIL" id="mce-EMAIL" class="u-fullwidth text-center" placeholder="Your Email Address" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
                             <input type="submit" name="subscribe" value="Subscribe" class="btn btn--primary u-fullwidth">
