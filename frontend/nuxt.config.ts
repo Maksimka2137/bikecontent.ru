@@ -8,6 +8,10 @@ const locales = fs.readdirSync('locales')
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    runtimeConfig: {
+        TG_BOT_KEY: process.env.TG_BOT_KEY,
+        TG_CHAT_ID: process.env.TG_CHAT_ID
+    },
     app: {
         head: {
             title: 'Bikecontent',
@@ -105,6 +109,10 @@ export default defineNuxtConfig({
         classPrefix: '',
         classSuffix: '',
         storageKey: 'color-scheme',
+    },
+
+    routeRules: {
+        // use this thing to set up caching, redirects etc
     },
 
     devtools: {

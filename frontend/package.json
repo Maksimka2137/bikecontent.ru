@@ -32,6 +32,7 @@
     "taze": "^0.13.3"
   },
   "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
     "yandex-metrika-module-nuxt3": "^1.5.3"
   }
 }
