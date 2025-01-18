@@ -9,6 +9,10 @@ packages/*/LICENSE
 */**/yarn.lock
 /.yarn
 
+/**/.venv
+/**/__pycache__
+.venv
+
 # Logs
 *.log
 
