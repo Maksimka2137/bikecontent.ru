@@ -113,11 +113,11 @@
         
                     <div class="column list-block__item">
                         <div class="list-block__title">
-                            <h3 class="h5">More over we can take beautiful photos, so you can put it on the Internet to show off</h3>
+                            <h3 class="h5">We can take beautiful photos</h3>
                         </div>
                         <div class="list-block__text">
                             <p>
-
+                                So you can put them on the net to show off your bike
                             </p>
                         </div>
                     </div> <!-- end list-block__item -->
@@ -628,7 +628,7 @@ useHead({
     }
 })
 let sendMessage = async () => {
-    $fetch('/api/sendOrder', {
+    $fetch('/api/send-order', {
         method: 'POST',
         body: { email: email.value }
     }).then(() => {

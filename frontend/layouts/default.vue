@@ -114,18 +114,18 @@
         
                     <div class="column list-block__item">
                         <div class="list-block__title">
-                            <h3 class="h5">Красиво сфотографируем твой велосипед, и ты сможешь выложить фотографию в интернет, чтобы другие люди увидели твой байк (примеры работ можешь посмотреть в нашем портфолио)</h3>
+                            <h3 class="h5">Красиво сфотографируем</h3>
                         </div>
                         <div class="list-block__text">
                             <p>
-
+                                И ты сможешь выложить фотографию своего велика в интернет, чтобы другие люди увидели твой байк (примеры работ можешь посмотреть в нашем портфолио)
                             </p>
                         </div>
                     </div> <!-- end list-block__item -->
         
                     <div class="column list-block__item">
                         <div class="list-block__title">
-                            <h3 class="h5">Наши услуги стоят совсем не дорого</h3>
+                            <h3 class="h5">Наши услуги стоят не дорого</h3>
                         </div>
                         <div class="list-block__text">
                             <p>
@@ -629,7 +629,7 @@ useHead({
     }
 })
 let sendMessage = async () => {
-    $fetch('/api/sendOrder', {
+    $fetch('/api/send-order', {
         method: 'POST',
         body: { email: email.value }
     }).then(() => {
