@@ -155,7 +155,8 @@
                             Если понравилось наше творчество можешь перейти по ссылкам ниже и подписаться на наш канал и группу в VK:
                             <!-- <a href="vk.com/club226196490">vk.com/club226196490</a> -->
                             <!-- <br> -->
-                            <a href="https://www.youtube.com/@RoadEagles50">www.youtube.com/@RoadEagles50</a>
+                            <a href="https://www.youtube.com/@RoadEagles50">www.youtube.com/@RoadEagles50</a><br />
+                            У нас есть <a href="https://rutube.ru/channel/56211314/">RuTube</a>, между прочим!
                         </p>
                     </div>
                 </div> <!-- end section-header -->
@@ -198,8 +199,8 @@
                                         <img src="/images/gallery/1-gallery.jpg" alt="">
                                     </div>
                                     <div class="entry__info">
-                                        <div class="entry__cat">Frontend Design</div>
-                                        <h4 class="entry__title">White Turban</h4>
+                                        <div class="entry__cat"></div>
+                                        <h4 class="entry__title"></h4>
                                     </div>
                                 </a>
                             </article> <!-- entry -->
@@ -210,8 +211,8 @@
                                         <img src="/images/gallery/2-gallery.jpg" alt="">
                                     </div>
                                     <div class="entry__info" v-show="false">
-                                        <div class="entry__cat">Brand Identity</div>
-                                        <h4 class="entry__title">Caffeine & Tulips</h4>
+                                        <div class="entry__cat"></div>
+                                        <h4 class="entry__title"></h4>
                                     </div>
                                 </a>
                             </article> <!-- entry -->
@@ -222,8 +223,8 @@
                                         <img src="/images/gallery/3-gallery.jpg" alt="">
                                     </div>
                                     <div class="entry__info" v-show="false">
-                                        <div class="entry__cat">Product Design</div>
-                                        <h4 class="entry__title">Grayscale</h4>
+                                        <div class="entry__cat"></div>
+                                        <h4 class="entry__title"></h4>
                                     </div>
                                 </a>
                             </article> <!-- entry -->
@@ -234,8 +235,8 @@
                                         <img src="/images/gallery/4-gallery.jpg" alt="">
                                     </div>
                                     <div class="entry__info" v-show="false">
-                                        <div class="entry__cat">E-Commerce</div>
-                                        <h4 class="entry__title">Lamp</h4>
+                                        <div class="entry__cat"></div>
+                                        <h4 class="entry__title"></h4>
                                     </div>
                                 </a>
                             </article> <!-- entry -->
@@ -246,8 +247,8 @@
                                         <img src="/images/gallery/5-gallery.jpg" alt="">
                                     </div>
                                     <div class="entry__info" v-show="false">
-                                        <div class="entry__cat">Frontend Design</div>
-                                        <h4 class="entry__title">Tropical</h4>
+                                        <div class="entry__cat"></div>
+                                        <h4 class="entry__title"></h4>
                                     </div>
                                 </a>
                             </article> <!-- entry -->
@@ -258,8 +259,8 @@
                                         <img src="/images/gallery/6-gallery.jpg" alt="">
                                     </div>
                                     <div class="entry__info" v-show="false">
-                                        <div class="entry__cat">E-Commerce</div>
-                                        <h4 class="entry__title">Woodcraft</h4>
+                                        <div class="entry__cat"></div>
+                                        <h4 class="entry__title"></h4>
                                     </div>
                                 </a>
                             </article> <!-- entry -->
@@ -273,100 +274,69 @@
                 -------------------------------------------- -->
                 <div id="modal-01" hidden>
                     <div class="modal-popup">
-                        <img src="/images/folio/gallery/g-turban.jpg" alt="">
+                        <img src="/images/gallery/1-gallery.jpg" alt="">
             
                         <div class="modal-popup__desc">
-                            <h5>White Turban</h5>
-                            <p>Odio soluta enim quos sit asperiores rerum rerum repudiandae cum. Vel voluptatem alias qui assumenda iure et expedita voluptatem. Ratione officiis quae.</p>
+                            <h5></h5>
+                            <p></p>
                             <ul class="modal-popup__cat">
-                                <li>UX Research</li>
-                                <li>Frontend Design</li>
+                                <li></li>
+                                <li></li>
                             </ul>
                         </div>
             
-                        <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
                     </div>
                 </div> <!-- end modal -->
 
                 <div id="modal-02" hidden>
                     <div class="modal-popup">
-                        <img src="/images/folio/gallery/g-tulips.jpg" alt="">
+                        <img src="/images/gallery/2-gallery.jpg" alt="">
             
                         <div class="modal-popup__desc">
-                            <h5>Caffeine & Tulips</h5>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                             <ul class="modal-popup__cat">
-                                <li>Brand Identity</li>
                             </ul>
                         </div>
             
-                        <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
                     </div>
                 </div> <!-- end modal -->
 
                 <div id="modal-03" hidden>
                     <div class="modal-popup">
-                        <img src="/images/folio/gallery/g-grayscale.jpg" alt="">
+                        <img src="/images/gallery/3-gallery.jpg" alt="">
             
                         <div class="modal-popup__desc">
-                            <h5>Grayscale</h5>
-                            <p>Exercitationem reprehenderit quod explicabo consequatur aliquid ut magni ut. Deleniti quo corrupti illum velit eveniet ratione necessitatibus ipsam mollitia.</p>
-                            <ul class="modal-popup__cat">
-                                <li>Product Design</li>
-                            </ul>
                         </div>
             
-                        <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
                     </div>
                 </div> <!-- end modal -->
 
                 <div id="modal-04" hidden>
                     <div class="modal-popup">
-                        <img src="/images/folio/gallery/g-lamp.jpg" alt="">
+                        <img src="/images/gallery/4-gallery.jpg" alt="">
             
                         <div class="modal-popup__desc">
-                            <h5>The Lamp</h5>
-                            <p>Dolores velit qui quos nobis. Aliquam delectus voluptas quos possimus non voluptatem voluptas voluptas. Est doloribus eligendi porro doloribus voluptatum.</p>
-                            <ul class="modal-popup__cat">
-                                <li>E-Commerce</li>
-                            </ul>
                         </div>
             
-                        <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
                     </div>
                 </div> <!-- end modal -->
 
                 <div id="modal-05" hidden>
                     <div class="modal-popup">
 
-                        <img src="/images/folio/gallery/g-tropical.jpg" alt="">
+                        <img src="/images/gallery/5-gallery.jpg" alt="">
             
                         <div class="modal-popup__desc">
-                            <h5>Tropical</h5>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                            <ul class="modal-popup__cat">
-                                <li>Frontend Design</li>
-                            </ul>
                         </div>
             
-                        <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
                     </div>
                 </div> <!-- end modal -->
 
                 <div id="modal-06" hidden>
                     <div class="modal-popup">
-                        <img src="/images/folio/gallery/g-woodcraft.jpg" alt="">
+                        <img src="/images/gallery/6-gallery.jpg" alt="">
             
                         <div class="modal-popup__desc">
-                            <h5>Woodcraft</h5>
-                            <p>Quisquam vel libero consequuntur autem voluptas. Qui aut vero. Omnis fugit mollitia cupiditate voluptas. Aenean sollicitudin, lorem quis bibendum auctor.</p>
-                            <ul class="modal-popup__cat">
-                                <li>E-Commerce</li>
-                                <li>Product Design</li>
-                            </ul>
                         </div>
-            
-                        <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
                     </div>
                 </div> <!-- end modal -->
 
@@ -621,7 +591,7 @@
 
 <script setup>
 let email = ref('')
-let emailSent = false
+let emailSent = ref(false)
 
 useHead({
     bodyAttrs: {
@@ -633,7 +603,7 @@ let sendMessage = async () => {
         method: 'POST',
         body: { email: email.value }
     }).then(() => {
-        emailSent = true
+        emailSent.value = true
     })
 }
 </script>
